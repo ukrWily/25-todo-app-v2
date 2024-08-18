@@ -1,38 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Radio+Canada+Big:regular,500,600,700,italic,500italic,600italic,700italic);
+
 .App {
   text-align: center;
+  font-family: 'Roboto';
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper{
+  background-color: #112d49;
+  display: inline-block;
+  margin: 20px auto;
+  padding: 20px 30px;
+  border-radius: 1em;
+  color: aliceblue;
+  box-shadow: 7px 7px 5px #000000e7;
+  border: .5px solid #9cd4042d;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  font-family: 'Radio+Canada+Big';
+  font-size: 50px;
+  margin-bottom: 20px;
+  color:cadetblue;
+  text-shadow: 2px 2px 1px green, 5px 5px 5px #000;
 }
