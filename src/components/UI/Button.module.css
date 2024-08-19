@@ -1,0 +1,26 @@
+.button {
+  position: relative;
+  margin-left: 20px;
+  /* height: 50px; */
+  cursor: pointer;
+  background-color: beige;
+  font-size: 1.5rem;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.9);
+  transition: all .1s;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  outline: 1px solid transparent;
+  & svg{
+    transform: translateY(3px);
+  }
+  &:hover{
+    background-color: rgb(240, 240, 155);
+    border: 2px solid red;
+    outline: 1px solid #fff;
+    & svg{
+      color: red;
+    }
+  }
+}
