@@ -13,32 +13,6 @@
   height: 30px;
   font-size: 1.3rem;
   box-shadow: inset 5px 5px 1px rgba(0, 0, 0, 0.9);
-}
-
-.todoFormContainer button {
-  position: relative;
-  margin-left: 20px;
-  /* height: 50px; */
-  cursor: pointer;
-  background-color: beige;
-  font-size: 1.5rem;
-  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.9);
-  transition: all .1s;
-}
-
-.todoFormContainer button:hover {
-  /* background-color: rgb(240, 240, 155); */
-  color: #fff;
-  background-color:blueviolet;
-  text-shadow: 2px 2px 1px #000;
-}
-.todoFormContainer button:active {
-  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.9);
-  transform: scale(.98);
-}
-
-.todoFormContainer input,
-.todoFormContainer button {
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
