@@ -40,6 +40,10 @@ function App() {
   };
   //
   const completedTodosCount = todos.filter((todo) => todo.isCompleted).length;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 429c43d3d0a6563696e7168cacbe72f94665d99e
   //
   return (
     <div className="App">
